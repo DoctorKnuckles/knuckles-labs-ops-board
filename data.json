@@ -1,44 +1,69 @@
 {
-  "updatedAt": "2026-10-24T23:04:43.300313-04:00",
+  "updatedAt": "2026-10-24T23:06:46.805896-04:00",
   "updatedBy": "Briggs",
-  "banner": "LIVE \u00b7 bots update this page",
+  "banner": "LIVE \u00b7 toolkit mode",
   "shoot": {
-    "status": "Idle \u2014 waiting on Harper",
+    "status": "Muffler remake cast locked \u00b7 next: Fart Storage Pants (waiting on situation pick)",
     "editBay": "free",
-    "stillsNote": "Harper drops stills here"
+    "stillsNote": "Rusty \u00b7 nurse lot \u00b7 golfer lot \u00b7 bay"
   },
   "shop": [
     {
-      "name": "DK Classic Logo Mug",
-      "price": "$14.99+",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/doctor-knuckles-classic-logo-mug"
+      "name": "Formulary stickers",
+      "price": "$7",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-formulary-sticker-sheet"
     },
     {
-      "name": "Trash Panda Mug 11oz",
-      "price": "$15.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/trash-panda-thunder-dump-black-glossy-mug"
+      "name": "Classics stickers",
+      "price": "$7",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-classics-sticker-sheet"
     },
     {
-      "name": "DK / Labs Logo Mug",
-      "price": "$16.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/original-doctor-knuckles-knuckles-labs-logo-mug"
+      "name": "Fart Juice cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/fart-juice-can-cooler"
     },
     {
-      "name": "Spanks + DK Mug",
-      "price": "$16.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/spanks-the-clown-doctor-knuckles-black-mug"
+      "name": "Trash Panda cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/trash-panda-thunder-dump-can-cooler"
     },
     {
-      "name": "Terror Alert Meter",
-      "price": "$17.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-bathroom-terror-alert-meter"
+      "name": "DK Logo cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/doctor-knuckles-logo-can-cooler"
+    },
+    {
+      "name": "WAFFLES cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/waffles-can-cooler"
+    },
+    {
+      "name": "I Fart and I'm Proud cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/i-fart-and-im-proud-can-cooler"
+    },
+    {
+      "name": "World Is My Toilet cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/the-world-is-my-toilet-can-cooler"
+    },
+    {
+      "name": "Not a Proctologist cooler",
+      "price": "$9.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/im-not-a-proctologist-but-ill-take-a-look-can-cooler"
+    },
+    {
+      "name": "$9.99 or Less",
+      "price": "all",
+      "url": "https://knuckles-labs-shop.fourthwall.com/collections/9-99-or-less"
     }
   ],
-  "shopNote": "No SKUs under $10 yet. Jade swaps when stickers/coozies land.",
+  "shopNote": "Under-$10 live. One SKU per reel.",
   "sales": {
-    "big": "LIVE FEED",
-    "note": "Briggs flipped this from the lab \u2014 refresh to see changes",
-    "topSku": "Top cue: Terror Meter \u00b7 shop spotlight"
+    "big": "QUIET",
+    "note": "Last week ~220 visitors, 2 carts, 0 orders",
+    "topSku": "Cue: hard under-$10 links \u00b7 one SKU per reel"
   },
   "whiteboard": {
     "who": "Briggs: ops board \u00b7 Petri: filter sponge recal + Terror Meter QC \u00b7 Doc: Mangler seam still open",
