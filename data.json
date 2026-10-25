@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-24T23:26:33.939512-04:00",
+  "updatedAt": "2026-10-24T23:28:25.633231-04:00",
   "updatedBy": "Briggs",
-  "banner": "LIVE \u00b7 Ops + Workbench tabs",
+  "banner": "LIVE \u00b7 Doc idea board",
   "shoot": {
     "status": "Muffler remake cast locked \u00b7 next: Fart Storage Pants (waiting on situation pick)",
     "editBay": "free",
@@ -46,7 +46,6 @@
     "fridge": "DEFINITELY NOT LUNCH = samples. Unlabeled = Dale's problem.",
     "drip": "~1 drip / 4 sec (Petri timed it)"
   },
-  "meterDefault": 1,
   "access": [
     "Steve",
     "Briggs",
@@ -92,5 +91,23 @@
     ],
     "scratch": "Type captions / SKU notes here \u2014 shared scratch (local to this Tab)",
     "note": "Page 1 = ops. Page 2 = workbench. Meter stays. No passwords on the board."
-  }
+  },
+  "ideaNote": "Doc owns this tile. Prototypes only \u2014 nothing here is for sale.",
+  "ideas": [
+    {
+      "tag": "NEXT SPOT",
+      "title": "Fart Storage Pants",
+      "blurb": "Remake waiting on situation pick. Harper greenlit once Gunner locks cast + beat."
+    },
+    {
+      "tag": "BENCH",
+      "title": "Turd Mangler 3000 \u00b7 seam",
+      "blurb": "Variable chunk control open. Petri holding clearance until seal stops failing at the seam."
+    },
+    {
+      "tag": "CONCEPT",
+      "title": "Residual Mud Butt Absorbing Filter Sponge",
+      "blurb": "Full-bodied aroma on purpose. Jar still labeled DO NOT SNIFF. Kevin sniffed."
+    }
+  ]
 }
