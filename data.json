@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-24T23:08:01.428061-04:00",
+  "updatedAt": "2026-10-24T23:16:05.786425-04:00",
   "updatedBy": "Briggs",
-  "banner": "LIVE \u00b7 ops + workbench",
+  "banner": "LIVE \u00b7 polish pass",
   "shoot": {
     "status": "Muffler remake cast locked \u00b7 next: Fart Storage Pants (waiting on situation pick)",
     "editBay": "free",
@@ -29,37 +29,12 @@
       "url": "https://knuckles-labs-shop.fourthwall.com/products/trash-panda-thunder-dump-can-cooler"
     },
     {
-      "name": "DK Logo cooler",
-      "price": "$9.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/doctor-knuckles-logo-can-cooler"
-    },
-    {
-      "name": "WAFFLES cooler",
-      "price": "$9.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/waffles-can-cooler"
-    },
-    {
-      "name": "I Fart and I'm Proud cooler",
-      "price": "$9.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/i-fart-and-im-proud-can-cooler"
-    },
-    {
-      "name": "World Is My Toilet cooler",
-      "price": "$9.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/the-world-is-my-toilet-can-cooler"
-    },
-    {
-      "name": "Not a Proctologist cooler",
-      "price": "$9.99",
-      "url": "https://knuckles-labs-shop.fourthwall.com/products/im-not-a-proctologist-but-ill-take-a-look-can-cooler"
-    },
-    {
-      "name": "$9.99 or Less",
+      "name": "$9.99 or Less \u00b7 full list",
       "price": "all",
       "url": "https://knuckles-labs-shop.fourthwall.com/collections/9-99-or-less"
     }
   ],
-  "shopNote": "Under-$10 live. One SKU per reel.",
+  "shopNote": "Top impulse SKUs. Full under-$10 list on Workbench dock.",
   "sales": {
     "big": "QUIET",
     "note": "Last week ~220 visitors, 2 carts, 0 orders",
