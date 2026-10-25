@@ -25,7 +25,7 @@
     position:sticky;top:0;z-index:20;padding:10px 12px calc(8px + var(--safe-top));
     padding-top:calc(10px + var(--safe-top));
     border-bottom:1px solid var(--border);
-    background:rgba(7,11,18,.94);backdrop-filter:blur(10px);
+    background:#070b12;
     display:grid;grid-template-columns:1fr auto;gap:8px 12px;align-items:center;
   }
   .brand h1{margin:0;font-size:0.95rem;letter-spacing:.06em;color:var(--gold2);font-weight:700}
@@ -62,20 +62,6 @@
   .wb .row:last-child{border-bottom:0}
   .wb .label{color:var(--muted);font-size:.68rem;text-transform:uppercase;letter-spacing:.1em;margin-bottom:3px}
   .wb .val{font-size:.9rem;line-height:1.35}
-  .meter-face{display:flex;flex-direction:column;align-items:center;gap:14px;padding:6px 0 2px}
-  .dial{width:min(200px,58vw);aspect-ratio:1;border-radius:50%;
-    background:conic-gradient(from -90deg,var(--grey) 0 58deg,var(--green) 58deg 130deg,var(--yellow) 130deg 198deg,var(--orange) 198deg 270deg,var(--red) 270deg 360deg);
-    position:relative;box-shadow:inset 0 0 0 12px var(--panel),0 8px 28px rgba(0,0,0,.45)}
-  .dial::after{content:"";position:absolute;left:50%;top:50%;width:46%;height:6px;margin-left:-4%;
-    background:linear-gradient(90deg,#fff,#cfd8e8);border-radius:4px;transform-origin:8% 50%;
-    transform:rotate(var(--needle,40deg));box-shadow:0 0 8px rgba(0,0,0,.5);z-index:2}
-  .dial-center{position:absolute;inset:30%;background:var(--panel);border-radius:50%;
-    display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;
-    font-size:.78rem;font-weight:750;letter-spacing:.04em;z-index:3;border:1px solid var(--border)}
-  .levels{display:grid;grid-template-columns:1fr 1fr;gap:8px;width:100%;max-width:360px}
-  .lvl{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:12px;
-    padding:12px 8px;font-size:.72rem;font-weight:650;cursor:pointer;line-height:1.2}
-  .lvl.active{border-color:var(--gold);background:var(--navy);color:var(--gold2)}
   footer{padding:8px 12px calc(10px + var(--safe-bottom));border-top:1px solid var(--border);
     font-size:.72rem;color:var(--muted);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
   #sync{color:var(--green)}
@@ -209,9 +195,6 @@ function tick(){
     weekday:'short',month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZone:'America/New_York'
   })+' ET';
 }
-  const s=localStorage.getItem('terrorLevel');
-  setLevel(s!=null?Number(s):(def??1));
-}
 const scratch=document.getElementById('scratch');
 scratch.value=localStorage.getItem('opsScratch')||'';
 scratch.oninput=()=>localStorage.setItem('opsScratch',scratch.value);
@@ -263,6 +246,8 @@ async function load(){
     document.getElementById('sync').style.color='var(--orange)';
   }
 }
+const BOOT={"updatedAt": "2026-10-24T23:33:56.223006-04:00", "updatedBy": "Briggs", "banner": "LIVE \u00b7 fixed crash", "shoot": {"status": "Muffler remake cast locked \u00b7 next: Fart Storage Pants (waiting on situation pick)", "editBay": "free", "stillsNote": "Rusty \u00b7 nurse lot \u00b7 golfer lot \u00b7 bay"}, "shop": [{"name": "Formulary stickers", "price": "$7", "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-formulary-sticker-sheet"}, {"name": "Classics stickers", "price": "$7", "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-classics-sticker-sheet"}, {"name": "Fart Juice cooler", "price": "$9.99", "url": "https://knuckles-labs-shop.fourthwall.com/products/fart-juice-can-cooler"}, {"name": "Trash Panda cooler", "price": "$9.99", "url": "https://knuckles-labs-shop.fourthwall.com/products/trash-panda-thunder-dump-can-cooler"}, {"name": "$9.99 or Less \u00b7 full list", "price": "all", "url": "https://knuckles-labs-shop.fourthwall.com/collections/9-99-or-less"}], "shopNote": "Top impulse SKUs. Full under-$10 list on Workbench dock.", "sales": {"big": "QUIET", "note": "Last week ~220 visitors, 2 carts, 0 orders", "topSku": "Cue: hard under-$10 links \u00b7 one SKU per reel"}, "whiteboard": {"who": "Briggs: ops board \u00b7 Petri: filter sponge recal + Terror Meter QC \u00b7 Doc: Mangler seam still open", "allen": "1300\u20131500 ET \u2014 do not disturb", "fridge": "DEFINITELY NOT LUNCH = samples. Unlabeled = Dale's problem.", "drip": "~1 drip / 4 sec (Petri timed it)"}, "access": ["Steve", "Briggs", "Harper", "Roxy", "Jade", "Doc", "Petri", "Petri Prime"], "workbench": {"bookmarks": [{"label": "Gift Shop", "url": "https://knuckles-labs-shop.fourthwall.com", "who": "all"}, {"label": "$9.99 or Less", "url": "https://knuckles-labs-shop.fourthwall.com/collections/9-99-or-less", "who": "Jade/Roxy"}, {"label": "Fourthwall", "url": "https://knuckles-labs-shop.fourthwall.com/admin", "who": "Jade/Briggs"}, {"label": "Facebook", "url": "https://www.facebook.com", "who": "Roxy/Gift Shop"}, {"label": "Grok Imagine", "url": "https://grok.com/imagine", "who": "Harper"}, {"label": "Terror Meter product", "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-bathroom-terror-alert-meter", "who": "all"}], "scratch": "Type captions / SKU notes here \u2014 shared scratch (local to this Tab)", "note": "Page 1 = ops. Page 2 = workbench. Meter stays. No passwords on the board."}, "ideaNote": "Doc owns this tile. Prototypes only \u2014 nothing here is for sale.", "ideas": [{"tag": "NEXT SPOT", "title": "Fart Storage Pants", "blurb": "Remake waiting on situation pick. Harper greenlit once Gunner locks cast + beat."}, {"tag": "BENCH", "title": "Turd Mangler 3000 \u00b7 seam", "blurb": "Variable chunk control open. Petri holding clearance until seal stops failing at the seam."}, {"tag": "CONCEPT", "title": "Residual Mud Butt Absorbing Filter Sponge", "blurb": "Full-bodied aroma on purpose. Jar still labeled DO NOT SNIFF. Kevin sniffed."}]};
+try{render(BOOT);}catch(e){}
 tick();load();setInterval(tick,15000);setInterval(load,30000);
 </script>
 </body>
