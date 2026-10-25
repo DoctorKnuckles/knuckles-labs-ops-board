@@ -1,0 +1,60 @@
+{
+  "updatedAt": "2026-10-24T23:02:00-04:00",
+  "updatedBy": "Briggs",
+  "banner": "LIVE \u00b7 bots can update",
+  "shoot": {
+    "status": "Idle \u2014 waiting on Harper",
+    "editBay": "free",
+    "stillsNote": "Harper drops stills here"
+  },
+  "shop": [
+    {
+      "name": "DK Classic Logo Mug",
+      "price": "$14.99+",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/doctor-knuckles-classic-logo-mug"
+    },
+    {
+      "name": "Trash Panda Mug 11oz",
+      "price": "$15.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/trash-panda-thunder-dump-black-glossy-mug"
+    },
+    {
+      "name": "DK / Labs Logo Mug",
+      "price": "$16.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/original-doctor-knuckles-knuckles-labs-logo-mug"
+    },
+    {
+      "name": "Spanks + DK Mug",
+      "price": "$16.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/spanks-the-clown-doctor-knuckles-black-mug"
+    },
+    {
+      "name": "Terror Alert Meter",
+      "price": "$17.99",
+      "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-bathroom-terror-alert-meter"
+    }
+  ],
+  "shopNote": "No SKUs under $10 yet. Jade swaps when stickers/coozies land.",
+  "sales": {
+    "big": "\u2014",
+    "note": "Roxy sets this from real numbers",
+    "topSku": "Top cue: Terror Meter \u00b7 shop spotlight"
+  },
+  "whiteboard": {
+    "who": "Briggs: ops board \u00b7 Petri: filter sponge recal + Terror Meter QC \u00b7 Doc: Mangler seam still open",
+    "allen": "1300\u20131500 ET \u2014 do not disturb",
+    "fridge": "DEFINITELY NOT LUNCH = samples. Unlabeled = Dale's problem.",
+    "drip": "~1 drip / 4 sec (Petri timed it)"
+  },
+  "meterDefault": 1,
+  "access": [
+    "Steve",
+    "Briggs",
+    "Harper",
+    "Roxy",
+    "Jade",
+    "Doc",
+    "Petri",
+    "Petri Prime"
+  ]
+}
