@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-24T23:06:46.805896-04:00",
+  "updatedAt": "2026-10-24T23:08:01.428061-04:00",
   "updatedBy": "Briggs",
-  "banner": "LIVE \u00b7 toolkit mode",
+  "banner": "LIVE \u00b7 ops + workbench",
   "shoot": {
     "status": "Muffler remake cast locked \u00b7 next: Fart Storage Pants (waiting on situation pick)",
     "editBay": "free",
@@ -81,5 +81,41 @@
     "Doc",
     "Petri",
     "Petri Prime"
-  ]
+  ],
+  "workbench": {
+    "bookmarks": [
+      {
+        "label": "Gift Shop",
+        "url": "https://knuckles-labs-shop.fourthwall.com",
+        "who": "all"
+      },
+      {
+        "label": "$9.99 or Less",
+        "url": "https://knuckles-labs-shop.fourthwall.com/collections/9-99-or-less",
+        "who": "Jade/Roxy"
+      },
+      {
+        "label": "Fourthwall",
+        "url": "https://knuckles-labs-shop.fourthwall.com/admin",
+        "who": "Jade/Briggs"
+      },
+      {
+        "label": "Facebook",
+        "url": "https://www.facebook.com",
+        "who": "Roxy/Gift Shop"
+      },
+      {
+        "label": "Grok Imagine",
+        "url": "https://grok.com/imagine",
+        "who": "Harper"
+      },
+      {
+        "label": "Terror Meter product",
+        "url": "https://knuckles-labs-shop.fourthwall.com/products/knuckles-labs-bathroom-terror-alert-meter",
+        "who": "all"
+      }
+    ],
+    "scratch": "Type captions / SKU notes here \u2014 shared scratch (local to this Tab)",
+    "note": "Page 1 = ops. Page 2 = workbench. Meter stays. No passwords on the board."
+  }
 }
